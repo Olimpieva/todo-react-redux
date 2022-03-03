@@ -12,7 +12,11 @@ function TaskList({ tasks }) {
                 })}
             </ListGroup>
         )
-    } else return null;
+    } else return (
+        <div className="list-group-message">
+            <span>You are free! Do you want some work? &#128521;</span>
+        </div>
+    );
 }
 
 export default TaskList;

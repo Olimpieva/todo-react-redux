@@ -6,7 +6,6 @@ import { Button, FormControl, InputGroup } from "react-bootstrap";
 import { addTask } from "../store/actions";
 
 
-
 function AddNewTask({ task }) {
     const [taskTitle, setTaskTitle] = useState('');
     const dispatch = useDispatch();

@@ -1,5 +1,7 @@
 .main-app-container .list-group-item {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .list-group-item .form-check {
   width: 90%;
@@ -28,4 +30,8 @@
 
 .form-check-input {
   cursor: pointer;
+}
+
+.list-group-message {
+  color: #6c757d;
 }
